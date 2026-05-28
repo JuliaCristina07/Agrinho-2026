@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Site do Projeto</title>
+
+        <style>
+            /* AQUI COMEÇA O CSS PARA DAR COR E TAMANHO */
+
+            /* ESTILO PARA O BLOCO VERDE QUE SEGURA TUDO */
+            .bloco1{
+                background-color: #2ecc71; 
+                padding: 20px;
+                font-family: sans-serif; 
+                text-align: center; 
+                color: white; 
+            } 
+
+
+            
+            .caixa-meio {
+                border: 2px solid #ccc; 
+                margin: 20px; 
+                padding: 15px; 
+                color: black; 
+            } 
+
+           
+            #btn1 {
+                background: #f1c40f; 
+                border: none; 
+                padding: 10px; 
+                font-weight: bold; 
+                cursor: pointer; 
+            } 
+
+           
+            .texto1 {
+                font-size: 12px; /* DEIXA A LETRA BEM PEQUENININHA */
+                margin-top: 50px; /* EMPURRA O RODAPÉ PARA BAIXO */
+                border-top: 1px solid #000; /* CRIA UMA LINHA PRETA EM CIMA */
+            } /* FECHA O ESTILO DO TEXTO 1 */
+
+            /* FIM DA TAG DE ESTILO CSS */
+        </style>
+    </head>
+    <body>
+        
+        <div class="bloco1">
+
+            <div style="font-size: 25px;">Meu Projeto de Tecnologia</div>
+            <div class="caixa-meio">
+                <p>O milho vira bioplástico e depois vira música!</p>
+
+                <div id="btn1" onclick="alert('Incrível, né?')">CLIQUE AQUI</div>
+            </div>
+
+            <div class="texto1">Criado por mim</div>
+        </div>
+
+        <script>
+            // MANDA UMA MENSAGEM PARA O CONSOLE DO DESENVOLVEDOR
+            console.log("O site abriu."); // REGISTRA O LOG DE ABERTURA
+        </script>
+    </body>
+</html>
